@@ -28,6 +28,14 @@
 ## Dashboard
 <img width="2324" height="1311" alt="Dashboard 1" src="https://github.com/user-attachments/assets/04b37ea2-9a31-4dee-b784-f2715f22aea9" />
 
+## Project Insights
+-The dashboard provides a clear overview of sales performance by week, category, courier status, sales channel, product size, and top contributing states.
+-Dynamic slicers and filters enable users to dive deep into specific categories, locations, and time periods for targeted analysis.
+-Insights such as most shipped categories, cancellation patterns, state-wise performance, and the most influential sales channels are visually highlighted for easy understanding.
+-The project demonstrates the power of Excel-based analytics using pivot tables and dashboard tools to deliver business value in a simple, scalable manner.
+
+## Conclusion
+This sales analytics dashboard project successfully transforms raw order and sales data into actionable insights using systematic data cleaning, pivot table analysis, and dynamic dashboard visualizations. The end result is an interactive dashboard that allows stakeholders to monitor key metrics, spot trends, and make data-driven decisions efficiently.
 
 
 
