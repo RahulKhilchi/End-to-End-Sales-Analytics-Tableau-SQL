@@ -1,10 +1,46 @@
- # End-to-End-Sales-Analytics-Tableau-SQL
- ## Project Objective
-  End-to-end sales analytics project using MS SQL Server for data cleaning, transformation, and       validation, paired with an interactive Tableau dashboard. Tracks key sales metrics and trends to    enable data-driven decisions. Ideal for analysts seeking a complete SQL-to-Tableau analytics        workflow.
-  ## Dataset used
-  - <a href = "https://github.com/RahulKhilchi/End-to-End-Sales-Analytics-Tableau-SQL/blob/main/Amazon%20Sale%20Report.zip"> Dataset </a>
- 
-  ### Questions(KPIs)KPIs Tracked in This Project
+# End-to-End-Sales-Analytics-Tableau-SQL
+
+## Project Objective
+
+End-to-end sales analytics project using MS SQL Server for data cleaning, transformation, and validation, paired with an interactive Tableau dashboard. Tracks key sales metrics and trends to enable data-driven decisions. Ideal for analysts seeking a complete SQL-to-Tableau analytics workflow.
+
+---
+
+## Process
+
+⚙️ **Process Overview**
+
+🔹 **Step 1: Data Cleaning & Validation (SQL)**
+- Checked for missing values, duplicates, and anomalies.
+- Standardized data types, date formats, and categorical values.
+- Ensured consistency across tables (e.g., product IDs, customer IDs, region codes).
+
+🔹 **Step 2: Data Transformation (SQL)**
+- Used joins, aggregations, and case statements to prepare datasets.
+- Created calculated fields (e.g., profit margin, sales growth).
+- Structured data into fact and dimension tables for efficient analysis.
+
+🔹 **Step 3: Data Aggregation (SQL)**
+- Wrote queries to extract KPIs such as Total Sales, AOV, Customer Metrics, and Profitability.
+- Built summary tables that served as the foundation for visualization.
+
+🔹 **Step 4: Data Visualization (Tableau)**
+- Connected Tableau directly to the SQL database.
+- Designed an interactive dashboard with:
+  - KPI cards (Revenue, AOV, Growth, etc.)
+  - Trend analysis (sales over time)
+  - Category, region, and channel performance charts
+  - Filters and slicers for deeper exploration
+- Published the dashboard for stakeholders to explore insights dynamically.
+
+---
+
+## Dataset used
+
+Data set has been attached with the project and was exported from kaggle
+
+### Questions (KPIs) Tracked in This Project
+
 - Total Sales Revenue
 - Sales Growth Rate (period-over-period)
 - Average Order Value (AOV)
@@ -17,26 +53,28 @@
 - Product Category Performance
 - Regional/State-wise Sales Performance
 - Sales vs Target (Goal Achievement)
--Dashboard Intercation<a href = "https://github.com/RahulKhilchi/End-to-End-Sales-Analytics-Tableau-SQL/blob/main/amzon%20tableau.twb">View Dashboard</a>
 
-## Process
--Verify Data for Missing Values and Anomalies:Checked the dataset for missing entries or inconsistencies, and corrected them to ensure reliable analysis.
--Ensure Data Consistency:Verified that data was consistent and clean by standardizing data types, formats, and value ranges used in the analysis.
--Create Pivot Tables:Built pivot tables tailored to each analytical question or metric to extract insights flexibly from the data.
--Merge Pivot Tables into a Dashboard:Combined all relevant pivot tables into a single dashboard, then applied slicers to enable dynamic filtering and interaction by users.
+---
 
 ## Dashboard
+
 <img width="2324" height="1311" alt="Dashboard 1" src="https://github.com/user-attachments/assets/04b37ea2-9a31-4dee-b784-f2715f22aea9" />
 
-## Project Insights
--The dashboard provides a clear overview of sales performance by week, category, courier status, sales channel, product size, and top contributing states.
--Dynamic slicers and filters enable users to dive deep into specific categories, locations, and time periods for targeted analysis.
--Insights such as most shipped categories, cancellation patterns, state-wise performance, and the most influential sales channels are visually highlighted for easy understanding.
--The project demonstrates the power of Excel-based analytics using pivot tables and dashboard tools to deliver business value in a simple, scalable manner.
+---
 
-## Conclusion
-This sales analytics dashboard project successfully transforms raw order and sales data into actionable insights using systematic data cleaning, pivot table analysis, and dynamic dashboard visualizations. The end result is an interactive dashboard that allows stakeholders to monitor key metrics, spot trends, and make data-driven decisions efficiently.
+## 📊 Project Insights
+The dashboard provides a **comprehensive view of sales performance** across weeks, product categories, courier status, sales channels, product sizes, and top-performing states.  
 
+With **dynamic filters and slicers** in Tableau, users can drill down into specific time periods, categories, or regions for more focused analysis.  
 
+Key insights include:  
+- 🔹 Identification of **top-selling products** and **high-value customers**.  
+- 🔹 Analysis of **state-wise and regional performance** to highlight strong and weak markets.  
+- 🔹 Evaluation of **sales channels** to determine which platforms drive the most revenue.  
+- 🔹 Monitoring of **cancellations and courier performance** for operational improvements.  
+- 🔹 Tracking of **Sales vs Targets**, helping measure goal achievement.  
 
+This project demonstrates how **SQL-powered data processing** combined with **Tableau dashboards** can deliver **clear, actionable, and interactive business insights**.  
+
+---
 
